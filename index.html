@@ -1,46 +1,109 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title data-translate="page_title">Daisy Rossi & Associés Immobilier - Gestion Locative Côte d'Azur</title>
-    <meta name="description" data-translate="page_description" content="">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title data-translate="page_title">Daisy Rossi & Associés Immobilier - Gestion Locative Côte d'Azur</title>
+  <meta name="description" data-translate="page_description" content="" />
 
-    <!-- autres meta et liens -->
+  <!-- Fonts, SEO, canonical, etc. restent inchangés -->
 
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- Sélecteur de langue -->
-<nav class="language-selector" role="navigation" aria-label="Sélection de langue">
-    <button class="lang-btn" data-lang="fr" aria-label="Français">FR</button>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+  <!-- Language Selector -->
+  <nav class="language-selector" role="navigation" aria-label="Sélection de langue">
+    <button class="lang-btn active" data-lang="fr" aria-label="Français">FR</button>
     <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
     <button class="lang-btn" data-lang="it" aria-label="Italiano">IT</button>
     <button class="lang-btn" data-lang="ru" aria-label="Русский">RU</button>
-</nav>
+  </nav>
 
-<!-- Extrait contenu traduction -->
-<h1 data-translate="hero_title">Gestion Locative d'Excellence sur la Côte d'Azur</h1>
-<p data-translate="hero_subtitle">Confiez-nous votre bien immobilier et bénéficiez d'une gestion locative experte avec garantie totale à Roquebrune-Cap-Martin.</p>
-<a href="#contact" class="cta-button" data-translate="hero_cta" aria-describedby="hero-cta-desc">Découvrir nos services</a>
-
-<!-- Section Offre spéciale (modifiée) -->
-<section class="special-offer section">
+  <!-- Header -->
+  <header class="header" role="banner">
     <div class="container">
-        <div class="fade-in">
-            <div class="offer-badge" data-translate="offer_badge">Offre Spéciale Rentrée 2025</div>
-            <h2 data-translate="offer_title">État des lieux offert & Frais d’entremise / négociation offerts</h2>
-            <p data-translate="offer_description">
-                Pour toute signature d’un mandat de location accompagné d’un mandat de gestion locative avant le <b>30 novembre 2025</b>, profitez de nos avantages exclusifs pour bien démarrer la nouvelle saison !
-            </p>
-            <a href="#contact" class="cta-button" data-translate="offer_cta">Profiter de l'offre</a>
+      <div class="header-content">
+        <div class="logo">
+          <img src="Logo prospection flyer.png" alt="Logo Daisy Rossi & Associés Immobilier" class="logo-img" width="60" height="60" />
+          <div class="logo-text">
+            <span class="logo-main">Daisy Rossi &amp; Associés</span>
+            <span class="logo-sub">Immobilier</span>
+          </div>
         </div>
+      </div>
     </div>
-</section>
+  </header>
 
-<!-- ... reste du contenu avec data-translate pour chaque texte ... -->
+  <!-- Main Content -->
+  <main id="main-content" role="main">
+    <!-- Hero Section -->
+    <section class="hero" role="banner">
+      <div class="container">
+        <div class="hero-content fade-in">
+          <h1 data-translate="hero_title">Gestion Locative d'Excellence sur la Côte d'Azur</h1>
+          <p data-translate="hero_subtitle">Confiez-nous votre bien immobilier et bénéficiez d'une gestion locative experte avec garantie totale à Roquebrune-Cap-Martin.</p>
+          <a href="#contact" class="cta-button" data-translate="hero_cta" aria-describedby="hero-cta-desc">Découvrir nos services</a>
+          <span id="hero-cta-desc" class="sr-only">Accéder à la section contact pour découvrir nos services</span>
+        </div>
+      </div>
+    </section>
 
-<script src="script.js"></script>
+    <!-- Extraits type à traduire -->
+    <!-- Qui sommes-nous ? -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title fade-in" data-translate="about_title">Qui sommes-nous ?</h2>
+        <p class="section-subtitle fade-in" data-translate="about_subtitle">Daisy Rossi &amp; Associés Immobilier est votre partenaire de confiance pour la gestion locative sur la Côte d'Azur. Nous offrons des services complets et personnalisés pour les propriétaires exigeants qui souhaitent optimiser leurs investissements immobiliers.</p>
+      </div>
+    </section>
+
+    <!-- Offre spéciale modifiée ici -->
+    <section class="special-offer section">
+      <div class="container">
+        <div class="fade-in">
+          <div class="offer-badge" data-translate="offer_badge">Offre Spéciale Rentrée 2025</div>
+          <h2 data-translate="offer_title">État des lieux offert & Frais d’entremise / négociation offerts</h2>
+          <p data-translate="offer_description">
+            Pour toute signature d’un mandat de location accompagné d’un mandat de gestion locative avant le <b>30 novembre 2025</b>, profitez de nos avantages exclusifs pour bien démarrer la nouvelle saison !
+          </p>
+          <a href="#contact" class="cta-button" data-translate="offer_cta">Profiter de l'offre</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reste de contenu avec data-translate pour tous textes... -->
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="section-title fade-in" data-translate="contact_title">Contactez-nous</h2>
+        <p class="section-subtitle fade-in" data-translate="contact_subtitle">Prêt à confier la gestion de votre bien à des experts ? Contactez-nous dès aujourd'hui pour un devis personnalisé.</p>
+        <div class="contact-info">
+          <div class="contact-item fade-in">
+            <h3 data-translate="contact_phone_title">Téléphone</h3>
+            <p>+33 6 98 27 34 75</p>
+          </div>
+          <div class="contact-item fade-in">
+            <h3 data-translate="contact_email_title">Email</h3>
+            <p>daisy.rossi@daisy-rossi.com</p>
+          </div>
+          <div class="contact-item fade-in">
+            <h3 data-translate="contact_address_title">Adresse</h3>
+            <p>31 Avenue Paul Doumer<br />06190 Roquebrune-Cap-Martin</p>
+          </div>
+          <div class="contact-item fade-in">
+            <h3 data-translate="contact_website_title">Site Web</h3>
+            <p>daisy-rossi.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
