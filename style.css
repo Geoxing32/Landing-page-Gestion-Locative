@@ -1,3 +1,16 @@
+.language-selector {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 8px;
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
 .lang-btn {
   padding: 8px 12px;
   border: 1px solid #6B7280;
@@ -9,24 +22,15 @@
   font-weight: 500;
   transition: all 0.3s ease;
 }
+
 .lang-btn.active {
   background: #DC2626;
   color: white;
   border-color: #DC2626;
 }
-.lang-btn:hover {
+
+.lang-btn:hover:not(.active) {
   border-color: #DC2626;
   color: #DC2626;
 }
-.language-selector {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  display: flex;
-  gap: 8px;
-  background: white;
-  padding: 8px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  z-index: 1000;
-}
+
